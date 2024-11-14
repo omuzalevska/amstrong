@@ -1,17 +1,17 @@
 package dev.omuzalevska.amstrong;
 
-/**
- * Hello world!
- */
-public final class App {
-    private App() {
-    }
+import java.util.Scanner;
 
-    /**
-     * Says hello to the world.
-     * @param args The arguments of the program.
-     */
+public class App {
+
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Input int: ");
+        int n = scanner.nextInt();
+        
+        Armstrong.CheckArmstrong(n);
+  
+        scanner.close();
     }
 }
