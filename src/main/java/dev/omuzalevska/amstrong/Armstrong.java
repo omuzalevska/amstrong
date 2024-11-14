@@ -17,7 +17,7 @@ public class Armstrong{
         if (sum == originalNumber) {
             System.out.println(originalNumber + " yes");
         } else {
-            System.out.println(originalNumber + " no");
+            System.out.println(originalNumber + " not");
         }
     }
 }
